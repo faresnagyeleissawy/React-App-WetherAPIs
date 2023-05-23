@@ -1,0 +1,204 @@
+.card {
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  width: 300px;
+  margin: 20px auto;
+  background-color: white;
+  margin-left: 50px;
+}
+
+.card-title {
+  background-color: #007bff;
+  color: white;
+  font-size: 24px;
+  font-weight: bold;
+  margin: 0;
+  padding: 10px;
+  text-align: center;
+  text-transform: uppercase;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+}
+
+.card-body {
+  padding: 20px;
+}
+
+.card-body p {
+  margin: 0;
+  font-size: 16px;
+  line-height: 1.4;
+  font-size: large;
+  color: blue;
+}
+.card-body h3 {
+  color: #000;
+}
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 50px;
+}
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: white;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  width: 300px;
+  padding: 20px;
+}
+input {
+  display: block;
+  width: 200px;
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-sizing: border-box;
+  margin-bottom: 20px;
+}
+
+input:focus {
+  outline: none;
+  border-color: #007bff;
+  box-shadow: 0 0 0 2px rgba(0, 123, 255, 0.25);
+}
+button {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 10px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+}
+
+button:hover {
+  background-color: #0062cc;
+}
+header {
+  background-color: #f2f2f2;
+  padding: 10px;
+  height: 800px;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 50px;
+}
+
+.nav__links {
+  display: flex;
+  justify-content: flex-end;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.nav__item {
+  margin-left: 20px;
+}
+
+.nav__link {
+  color: #333;
+  text-decoration: none;
+  font-weight: bold;
+  transition: color 0.2s ease;
+}
+
+.nav__link:hover {
+  color: #0077ff;
+}
+.game {
+  max-width: 500px;
+  margin: 0 auto;
+}
+
+.body {
+  display: flex;
+}
+
+.help {
+  color: #666;
+  margin: 10px;
+  text-align: center;
+}
+
+.left {
+  text-align: center;
+  width: 50%;
+  border: thin solid #ddd;
+}
+
+.right {
+  text-align: center;
+  padding: 10px;
+  width: 50%;
+  border: thin solid #ddd;
+}
+
+.star {
+  display: inline-block;
+  margin: 0 15px;
+}
+
+.star:after {
+  content: "\2605";
+  font-size: 45px;
+}
+
+.number {
+  background-color: #eee;
+  border: thin solid #ddd;
+  width: 45px;
+  height: 45px;
+  margin: 10px;
+  font-size: 25px;
+}
+
+.number:focus,
+.number:active {
+  outline: none;
+  border: thin solid #ddd;
+}
+
+.timer {
+  color: #666;
+  margin-top: 3px;
+  margin-left: 3px;
+}
+
+.game-done .message {
+  font-size: 250%;
+  font-weight: bold;
+  margin: 15px;
+}
+a {
+  display: inline-block;
+  border: 1px solid #ccc;
+  background-color: #f2f2f2;
+  color: #333;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+a button:hover {
+  background-color: #e6e6e6;
+}
